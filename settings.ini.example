@@ -1,0 +1,6 @@
+[palgrave]
+VOSK_MODEL=vosk-model-small-en-us-0.15
+SPOTIFY_USERNAME=
+SPOTIFY_CLIENT_ID=
+SPOTIFY_CLIENT_SECRET=
+SPOTIFY_REDIRECT_URI=https://duckduckgo.com/
