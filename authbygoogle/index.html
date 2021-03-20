@@ -11,6 +11,8 @@
       function onSignIn(googleUser) {
         var profile = googleUser.getBasicProfile();
         alert("Hello, " + profile.getName())
+        alert("Signing you in...")
+        prompt("Please copy this and give it to Palgrave, do not edit it",profile.getName())
       }
     </script>
   </body>
