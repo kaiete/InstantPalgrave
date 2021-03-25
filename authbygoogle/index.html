@@ -19,6 +19,12 @@
         prompt("Please copy this and give it to Palgrave, do not edit it",profile.getName())
       }
       function gsignin() {
+        var id = 12345
+        var name = "Palgrave user"
+        mixpanel.people.set({
+          "name": name,
+          "id": id
+        })
         mixpanel.track("Sign in with Google")
       }
     </script>
